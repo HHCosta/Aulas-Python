@@ -1,2 +1,2 @@
-# Aulas-Python
-Aulas sobre algoritmos em python para o curso de engenharia de computação
+# Engenharia de computação. Aulas de python.
+Aulas sobre algoritmos em python 
