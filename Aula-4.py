@@ -47,21 +47,62 @@ from time import sleep
 #     x= x+1
 # #Exercico 8
 # VP = int(input())
+#
 # juros = (int(input())/100)
 # x= 1
 # while x<=24:
+#     VP2 = VP2 + VP2 * juros
+#     print(f"Soma = {VP2:.2f}")
+#     x+=1
+# print(juros)
+#
+#Exercicio 9
+# VP = int(input())
+# juros = (int(input())/100)
+# x= 1
+# while x<=24:
+#     m= int(input("ganho mensal"))
+#     VP = VP + m
 #     VP = VP + VP * juros
 #     print(f"Soma = {VP:.2f}")
 #     x+=1
 # print(juros)
-#Exercicio 9
-VP = int(input())
-juros = (int(input())/100)
-x= 1
-while x<=24:
-    m= int(input("ganho mensal"))
-    VP = VP + m
-    VP = VP + VP * juros
-    print(f"Soma = {VP:.2f}")
-    x+=1
-print(juros)
+#Exercicio 10
+# soma = 0
+# x= 1
+# a = 0
+# while True:
+#     x = int(input())
+#     if x ==0:
+#         break
+#     soma = soma + x
+#     a = a+1
+# print(soma)
+# print(a)
+# print(soma/(a))
+#Exercicio 11
+# soma = 0
+# x= 1
+# a = 0
+# while True:
+#     x = int(input())
+#     if x ==0:
+#         break
+#     elif x == 1:
+#         preco =  0.5
+#     elif x == 2:
+#         preco =  1
+#     elif x == 3:
+#         preco =  4
+#     elif x == 5:
+#         preco =   7
+#     elif x == 9:
+#         preco = 8
+#     else:
+#         print("Codigo invalido")
+#         preco = 0
+#     print(preco)
+#     if preco!=0:
+#         quantidade = int(input("Quantidade"))
+#         soma = soma + (preco*quantidade)
+# print(soma)
